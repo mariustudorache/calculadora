@@ -42,12 +42,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.zalando/tracer-spring-boot-starter -->
-		<dependency>
-			<groupId>org.zalando</groupId>
-			<artifactId>tracer-spring-boot-starter</artifactId>
-			<version>1.0.0-RC.0</version>
-		</dependency>
+
 
 	</dependencies>
 
