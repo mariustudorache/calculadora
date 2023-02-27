@@ -1,7 +1,7 @@
 # Calculadora
-Microservicio de una calculadora realizado con Spring Boot, Swagger 2 y Spring Fox.
+Microservicio de una calculadora realizado con Spring Boot.
  
-La calculadora traza todos los resultados usando la librer�a tracer-1.0.0.jar.
+La calculadora traza todos los resultados usando la libreria tracer-1.0.0.jar.
 
 #### Tecnologas
 
