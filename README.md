@@ -42,7 +42,7 @@ Siguiendo los pasos anteriores, bastar�a con ejecutar el comando en la carpeta
 
 #### Servicios disponibles
 Una vez lanzado el microservicio se podr� acceder al API accediendo a la siguiente URL:
-> **local**: http://localhost:8081/swagger-ui.html
+> **local**: http://localhost:8080/swagger-ui/index.html
 
 ---
 
