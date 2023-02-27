@@ -3,14 +3,14 @@ Microservicio de una calculadora realizado con Spring Boot, Swagger 2 y Spring F
  
 La calculadora traza todos los resultados usando la librer�a tracer-1.0.0.jar.
 
-#### Tecnolog�as
+#### Tecnologas
 
-Apache Maven 3.6.0
+Apache Maven 
 
-Java openjdk 8
+Java openjdk 11
 
-#### Librer�as necesarias
-<!-- librer�a de tracer -->
+#### Libreras necesarias
+<!-- librera de tracer -->
 		<dependency>
               <groupId>io.corp.calculator</groupId>
               <artifactId>tracer</artifactId>
@@ -20,28 +20,28 @@ Java openjdk 8
             </dependency>
 ---
 
-#### C�mo compilar el microservicio en local
+#### Como compilar el microservicio en local
 
-Para construir el proyecto se utilizar�n los siguientes comandos:
+Para construir el proyecto se utilizaron los siguientes comandos:
 
 > mvn clean install
 
 Este comando ejecuta:
  1. Limpiar el target del proyecto.
- 2. Recoger� las librer�as necesarias para el microservicio.
- 3. Compilar� el proyecto con las propiedades de la carpeta `src/main/resources/application.properties`
+ 2. Recogera las librerias necesarias para el microservicio.
+ 3. Compilara el proyecto con las propiedades de la carpeta `src/main/resources/application.properties`
 
 ---
 
-#### C�mo ejecutar el microservicio en local
-Siguiendo los pasos anteriores, bastar�a con ejecutar el comando en la carpeta ra�z del proyecto:
+#### Como ejecutar el microservicio en local
+Siguiendo los pasos anteriores, bastaria con ejecutar el comando en la carpeta raiz del proyecto:
 
 > mvn spring-boot:run
 
 ---
 
 #### Servicios disponibles
-Una vez lanzado el microservicio se podr� acceder al API accediendo a la siguiente URL:
+Una vez lanzado el microservicio se podra acceder al API accediendo a la siguiente URL:
 > **local**: http://localhost:8080/swagger-ui/index.html
 
 ---
