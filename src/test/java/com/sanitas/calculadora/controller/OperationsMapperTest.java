@@ -10,12 +10,14 @@ import com.sanitas.calculadora.model.Subtraction;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.math.BigDecimal;
 
 /**
  * Mapper test
  */
+@SpringBootTest
 public class OperationsMapperTest {
 
     private static OperationsMapper operationsMapper;
