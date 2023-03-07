@@ -67,7 +67,7 @@ public class OperationsControllerTest {
 
         this.mockMvc.perform(get("/api/v1/operations")
                         .param("operand1", BigDecimal.valueOf(5).toString())
-                        .param("operator", "SUB")
+                        .param("operator", "ADD")
                         .param("operand2", BigDecimal.valueOf(5).toString())
 
                 ).andDo(print()).andExpect(status().isOk())
@@ -75,5 +75,22 @@ public class OperationsControllerTest {
            ;
 
     }
+
+
+    /**
+     * Test 404 exception
+     */
+    @Test
+    public void itShouldThrownBadRequest() throws Exception {
+
+        this.mockMvc.perform(get("/api/v1/operations")
+                .param("operand1", BigDecimal.valueOf(5).toString())
+                .param("operand2", BigDecimal.valueOf(5).toString())
+
+        )
+                .andDo(print()).andExpect(status().isBadRequest());
+    }
+
+
 
 }
